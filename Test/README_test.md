@@ -10,10 +10,13 @@ In the test the correct range has been selected, after running the test case the
 
 Some variables that can be changed if needed: 
 
-num_bootstrap :: changing this will change the number of iterations to be simulated according to the monte-carlo bootstrap bethod. For details on this method please see Kristopher Fords thesis.
-Jmax :: changing Jmax will alter the number of wavenumbers that are simulated for the rotational bands. It is not suggested to change this.
-T_rotation :: the temperature range to begin the simulation, including the granularity of the simulation. 
-fwhm :: the FWHM of the spectrometer used to collect the data in nm.
+  num_bootstrap :: changing this will change the number of iterations to be simulated according to the monte-carlo bootstrap bethod. For details on this method please see Kristopher Fords thesis.
+  
+  Jmax :: changing Jmax will alter the number of wavenumbers that are simulated for the rotational bands. It is not suggested to change this.
+  
+  T_rotation :: the temperature range to begin the simulation, including the granularity of the simulation. 
+  
+  fwhm :: the FWHM of the spectrometer used to collect the data in nm.
 
 LIMITS: 
 If the resulting rotational temperature is >1000K or <200K the error 'temperature_limit_exceeded' will appear. This is arbitrary and can be user selected. Line: 273
